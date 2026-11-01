@@ -1,9 +1,17 @@
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
+
 .footer-logo {
   color: #f4f4fd;
 }
+
+.footer-wraper {
+  margin-bottom: 16px;
+}
+
 .footer-disc {
+  max-width: 264px;
   color: #f4f4fd;
 }

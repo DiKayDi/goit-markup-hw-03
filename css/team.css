@@ -4,13 +4,27 @@
 .team-title {
 }
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .team-item {
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
   background-color: #fff;
 }
+
 .team-photo {
 }
+
+.team-txt {
+  padding: 32px 16px;
+  border-top: none;
+}
+
 .team-name {
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;

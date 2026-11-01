@@ -1,3 +1,3 @@
 # goit-markup-hw-02
 
-m2 hm2
+m3 hm3

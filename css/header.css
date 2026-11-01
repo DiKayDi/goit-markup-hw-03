@@ -1,14 +1,31 @@
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .main-nav {
+  margin-left: 76px;
+  margin-right: auto;
 }
+
 .main-nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
+
 .main-nav-item {
 }
+
 .main-nav-link {
+  display: block;
+  padding: 24px 0;
+
   font-weight: 500;
   color: #2e2f42;
 }
@@ -21,10 +38,14 @@
   font-style: normal;
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .contact-item {
 }
+
 .contact-link {
+  padding: 24px 0;
 }
 .contact-link:hover,
 .contact-link:focus {
