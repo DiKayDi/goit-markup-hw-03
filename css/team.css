@@ -15,6 +15,7 @@
 }
 
 .team-photo {
+  display: block;
 }
 
 .team-txt {
